@@ -60,3 +60,19 @@ for filepath in list_of_files:
 # python template.py
 # Step 2 complte. This will create the folder structure
 
+# Step3 : To run into terminal for creating virtual environment
+# '''bash
+# conda create -n mlproj python 3.8 -y
+#conda activate mlproj
+# '''
+# Step 3: Complete
+
+# Step 4: Add all the libraries that will be needed in the requirements.txt file. Got to requirements.txt to see this.
+# After this add the contents in the setup.py file which will be step 5.
+# Step 4 complete 
+
+
+# Step 6: After writing all the needed libraries in requirements.txt (step 4). We need to execute the below 
+# command in terminal
+# pip install -r requirements.txt
+# Step 6 complete
