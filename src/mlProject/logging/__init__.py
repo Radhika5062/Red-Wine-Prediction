@@ -1,10 +1,7 @@
-# Step 9
-# Instead of creating a separate logging module, we can also use this constructor file to add the same logging 
-# functionality that we have added in the logging folder constructor
-
-import os 
+# Step 8
+import os
 import sys
-import logging 
+import logging
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
@@ -17,11 +14,13 @@ logging.basicConfig(
     level = logging.INFO,
     format = logging_str,
     handlers = [
+        # If you want to add log to file then use fileHandler
         logging.FileHandler(log_filepath),
+        # If you want to add log to console then add StreamHandler
         logging.StreamHandler(sys.stdout)
     ]
 )
 
 logger = logging.getLogger("mlProjectLogger")
 
-#Step 9 complete
+# Step 8 complete

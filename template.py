@@ -75,4 +75,4 @@ for filepath in list_of_files:
 # Step 6: After writing all the needed libraries in requirements.txt (step 4). We need to execute the below 
 # command in terminal
 # pip install -r requirements.txt
-# Step 6 complete
+# Step 6 completel
