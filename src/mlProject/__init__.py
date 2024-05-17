@@ -24,4 +24,4 @@ logging.basicConfig(
 
 logger = logging.getLogger("mlProjectLogger")
 
-#Step 9 complete
+#Step 9 completed
