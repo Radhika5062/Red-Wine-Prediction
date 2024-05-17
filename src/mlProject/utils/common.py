@@ -129,3 +129,18 @@ def get_size(path:Path) -> str:
     return f"~ {size_in_kb} KB"
 
 # Step 10 complete
+
+# Step 11: Theory about Workflows
+# 1. Update config.yaml
+# 2. Update schema.yaml
+# Parameters to the Machine Learning Algorith are stored in the params.yaml file. 
+# If in future we need to update those params then we can do so by just updating them here. 
+# 3. Update params.yaml
+# 4. Update the entity
+# 5. Update the configuration manager in src Config 
+# 6. Update the components
+# 7. Update the Pipeline
+# 8. Update the main.py
+# 9. Update the app.py
+
+# Step 11: completed
