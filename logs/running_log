@@ -1,1 +1,45 @@
-[2024-05-16 19:21:58,995: INFO: main: This is our custom log!]
+[2024-05-21 22:18:54,348: INFO: main: >>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-21 22:18:54,348: ERROR: main: name 'logger' is not defined]
+Traceback (most recent call last):
+  File "main.py", line 15, in <module>
+    data_ingestion.main()
+  File "c:\users\radhikamaheshwari\desktop\test\deeplearning\ete\src\mlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "c:\users\radhikamaheshwari\desktop\test\deeplearning\ete\src\mlProject\config\configuration.py", line 16, in __init__
+    logger.info(f"Config file path is {config_filepath}")
+NameError: name 'logger' is not defined
+[2024-05-21 22:21:36,851: INFO: main: >>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-21 22:21:36,851: INFO: configuration: Config file path is config\config.yaml]
+[2024-05-21 22:21:36,851: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-21 22:21:36,851: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-21 22:21:36,851: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-21 22:21:36,851: INFO: common: Created Directory at: artifacts]
+[2024-05-21 22:21:36,851: INFO: common: Created Directory at: artifacts/data_ingestion]
+[2024-05-21 22:21:38,389: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with the info 
+ Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2651a00c9b029e20e8a4b41aa35eb1eebca07987c66560680e0679f37f97af83"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 747E:CC991:3512F1:42AC74:664C8346
+Accept-Ranges: bytes
+Date: Tue, 21 May 2024 12:21:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-syd10153-SYD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1716294100.090922,VS0,VE334
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 659da08ea15176d166371f800fb04b0f9878aa42
+Expires: Tue, 21 May 2024 12:26:40 GMT
+Source-Age: 0
+
+]
+[2024-05-21 22:21:38,407: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<]
