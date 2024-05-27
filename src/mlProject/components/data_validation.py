@@ -48,7 +48,7 @@ class DataValidation:
                     if ((col == sch ) and (data.dtypes[col] == all_schema[sch])):
                         validation_status = True
                         with open(self.config.STATUS_FILE, 'w') as f:
-                            f.write(f'Validation status from dtypes function: {validation_status} \n')
+                            f.write(f'Validation status from dtypes function: {validation_status}')
             
             return validation_status
         except Exception as e:
