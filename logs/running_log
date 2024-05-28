@@ -1,0 +1,63 @@
+[2024-05-28 15:34:47,079: INFO: main: >>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-28 15:34:47,079: INFO: configuration: Config file path is config\config.yaml]
+[2024-05-28 15:34:47,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 15:34:47,079: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 15:34:47,079: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 15:34:47,079: INFO: common: Created Directory at: artifacts]
+[2024-05-28 15:34:47,079: INFO: common: Created Directory at: artifacts/data_ingestion]
+[2024-05-28 15:34:47,746: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with the info 
+ Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2651a00c9b029e20e8a4b41aa35eb1eebca07987c66560680e0679f37f97af83"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2EA5:131F7E:EC966:1290BB:66556C5F
+Accept-Ranges: bytes
+Date: Tue, 28 May 2024 05:34:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-syd10174-SYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1716874488.207057,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5ab4c9912772425fb24d43476bc8af016d79908c
+Expires: Tue, 28 May 2024 05:39:48 GMT
+Source-Age: 152
+
+]
+[2024-05-28 15:34:47,769: INFO: main: >>>>>>> stage Data Ingestion stage completed <<<<<<<]
+[2024-05-28 15:34:47,769: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<<<<<]
+[2024-05-28 15:34:47,769: INFO: configuration: Config file path is config\config.yaml]
+[2024-05-28 15:34:47,769: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 15:34:47,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 15:34:47,777: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 15:34:47,777: INFO: common: Created Directory at: artifacts]
+[2024-05-28 15:34:47,778: INFO: common: Created Directory at: artifacts/data_validation]
+[2024-05-28 15:34:47,821: INFO: main: >>>>>>>> stage Data Validation Stage completed <<<<<<<<<]
+[2024-05-28 15:34:47,821: INFO: main: >>>>>>> Data Transformation Stage has started<<<<<<<<<<]
+[2024-05-28 15:34:47,822: INFO: stage_03_data_transformation: Status is True]
+[2024-05-28 15:34:47,822: INFO: configuration: Config file path is config\config.yaml]
+[2024-05-28 15:34:47,822: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 15:34:47,828: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 15:34:47,830: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 15:34:47,831: INFO: common: Created Directory at: artifacts]
+[2024-05-28 15:34:47,834: INFO: common: Created Directory at: artifacts/data_transformation]
+[2024-05-28 15:34:47,896: INFO: data_transformation: Split of data into training set and testing set completed]
+[2024-05-28 15:34:47,896: INFO: data_transformation: (1199, 12)]
+[2024-05-28 15:34:47,896: INFO: data_transformation: (400, 12)]
+[2024-05-28 15:34:47,896: INFO: main: >>>>>>>>> Data Transformation Stage has completed<<<<<<<<<<<]
+[2024-05-28 15:34:47,896: INFO: main: >>>>>> stage Model Trainer started <<<<<<<<<]
+[2024-05-28 15:34:47,896: INFO: configuration: Config file path is config\config.yaml]
+[2024-05-28 15:34:47,896: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-28 15:34:47,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-28 15:34:47,896: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-28 15:34:47,896: INFO: common: Created Directory at: artifacts]
+[2024-05-28 15:34:47,911: INFO: common: Created Directory at: artifacts/model_trainer]
+[2024-05-28 15:34:47,963: INFO: main: >>>>>> stage Model Trainer completed <<<<<<<<<<<]
